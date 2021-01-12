@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --fn-light:100;
+    --fn-thin:300;
+    --fn-regular:400;
+    --fn-bold:700;
+    --fn-black:900;
+
+
+    --col-1: calc(100% / 12 * 1);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: calc(100% / 12 * 12);
+    
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    
+}
+
+.d-flex {
+    display: flex;
+    
+}
+.flex-direction-column {
+    flex-direction: column;
+}
+.text-align-center {
+    text-align: center;
+}
+
+
+.align-items-center {
+    align-items: center;
+    
+    
+}
+.align-items-flex-end {
+    align-items: flex-end;
+}
+
+.align-content-flex-end {
+    align-content: flex-end;
+}
+
+.justify-conten-center {
+    justify-content: center;
+}
+.justify-content-flex-end {
+    justify-content: flex-end;
+
+}
+
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+.col-5 {
+    width: var(--col-5);
+    padding: 0 15px;
+}
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+
+
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+
+/* ======Header start====== */
+
+
+header {
+    height: 768px;
+    background: url(images/header_bg.jpg) no-repeat center center / cover;
+}
+.nav {
+    margin-top: 30px;
+}
+
+.nav .logo h2 {
+    font-size:24px ;
+    font-weight: var(--fn-bold);
+    color: white;
+    text-transform: uppercase;
+
+}
+.nav .tel {
+    font-size: 24px;
+    font-weight: var(--fn-regular);
+    color: white;
+    margin-right: 50px;
+}
+
+
+.btn {
+    background: #68bf3b;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    
+    
+}
+.btn .recall {
+    color: white;
+    font-size: 16px;
+    font-weight: var(--fn-regular);
+}
+
+.info {
+    margin-top: 193px;
+}
+
+
+.info h2 {
+    font-size: 18px;
+    font-weight: var(--fn-black);
+    color: white;
+    
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+.info h1 {
+    font-size: 72px;
+    font-weight: var(--fn-black);
+    color: white;
+    text-transform: uppercase;
+    
+    
+       
+}
+.info p {
+    font-size: 18px;
+    font-weight: var(--fn-regular);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.info .full {
+    background: #68bf3b;
+    width: 200px;
+    height: 50px;
+    border-radius:25px ;
+    
+
+    
+}
+
+.full a {
+    
+    color: white;
+    font-size: 16px;
+    font-weight: var(--fn-regular);
+  
+}
+
+
+/* ======Main start===== */
+
+
+main {
+    height: 521px;
+    
+}
+main .infor {
+margin-top: 102px;
+
+
+
+height: 418px;
+}
+
+main .infor h1 {
+    font-size: 36px;
+    font-weight: var(--fn-bold);
+    color: #68bf3b;
+    margin-bottom: 58px;
+    text-transform: uppercase;
+}
+
+
+main .infor p {
+font-size: 18px;
+font-weight: var(--fn-regular);
+color: #bdbdbd;
+line-height: 38px;
+
+
+}
+main .infor .fran {
+    width: 450px;
+}
+
+main .infor h2 {
+    font-size: 24px;
+    font-weight: var(--fn-bold);
+    color: #bdbdbd;
+    margin-top: 70px;
+    
+    
+}
+
+main .infor .fran{
+width: 449px;
+}
+main .totti {
+    margin-top: 83px;
+
+}
+
+
+/* ======Section start===== */
+section {
+    margin-top: 51px;
+}
+
+section h2{
+font-size: 36px;
+font-weight: var(--fn-bold);
+color:rgba(104, 205, 22,20%);
+text-transform: uppercase;
+margin-bottom: 50px;
+}
+
+section .select {
+    margin-top: 50px ;
+}
+section .pizza {
+    
+    position: relative;
+}
+section .pizza .number {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 18px;
+    font-weight: var(--fn-bold);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #68cd16;
+    padding: 20px 10px;
+
+
+}
+section .lorem {
+    margin-right: 95px;
+}
+
+section .lorem h2  {
+font-size: 30px;
+font-weight: var(--fn-bold);
+color: #a6a6a6;
+margin: 24px 0 14px 0;
+text-transform: uppercase;
+}
+
+section .lorem p {
+    font-size: 14px;
+    font-weight: var(--fn-regular);
+    color: #a6a6a6;
+    line-height: 24px;
+    
+}
+
+section .show {
+    margin-top: 46px;
+}
+section .prise {
+    height: 29px;
+    margin-bottom: 32px;
+    
+}
+
+section .prise h1 {
+ font-size: 30px;
+ font-weight: var(--fn-bold);
+ color: #a6a6a6;
+ display: flex;
+ 
+ 
+ 
+}
+
+section .prise h1 h2 { 
+    font-size: 18px;
+    font-weight: var(--fn-thin); /* asalida font weight-light. Lekin thinda yahshi ko'rindi */
+    color: #a6a6a6;
+    padding: 12px 0 0 0;
+    margin-left: 10px;
+    text-transform:lowercase ;
+}
+section .online {
+    background: #68bf3b;
+    width: 200px;
+    height: 50px;
+    border-radius:25px ;
+    
+}
+.online a {
+font-size: 16px;
+font-weight: var(--fn-regular);
+color: white;
+}
+section .margin1 {
+
+    margin-bottom: 45px ;
+    
+}
+section .margin2 {
+
+    margin-bottom: 45px ;
+    
+}
+section .margin3 {
+
+    margin-bottom: 45px ;
+    
+}
+
+.footer_top {
+    margin-top: 145px;
+}
+.footer_top .box .col-4 {
+    text-align: center;
+}
+.footer_top .box h2 {
+font-size: 14px;
+font-weight: var(--fn-bold);
+color: #a6a6a6;
+text-transform: uppercase;
+margin: 28px 0 19px 0;
+}
+
+.footer_top .box p {
+    font-size: 14px;
+    font-weight: var(--fn-regular);
+    color: #a6a6a6;
+    line-height: 23px;
+}
+
+footer {
+    margin-top: 100px;
+    background: #060503;
+}
+
+
+
+footer nav {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/* ==========Media======== */
+
+@media (max-width:992px) {
+
+    /* .container {
+        max-width: 960px;
+
+    } */
+    /* .col-lg-10 {
+        width: var(--col-10);
+    padding: 0 15px;
+    } */
+
+    .footer_top img {
+        max-width: 275px;
+        max
+
+    }
+
+    section img {
+        max-width: 300px;
+    }
+    section .lorem {
+        margin-right: auto;
+        
+    }
+    section .lorem h2 {
+        
+        font-size: 18px;
+        
+    }
+    section .lorem p {
+        
+        font-size: 13px;
+        width: 315px;
+    }
+
+
+    .nav .logo h2 {
+        
+        font-size: 18px;
+    }
+
+    .nav .tel {
+        font-size: 18px;
+    }
+    .nav .recall {
+        font-size: 14px;
+    }
+    .nav .btn {
+        width: 180px;
+        height: 45px;
+    }
+
+    header .info h1 {
+font-size: 52px;
+    }
+
+    main .totti img {
+        width: 290px;
+        
+    }
+
+
+
+}
+
+
+@media (max-width:768px) {
+
+    .col-md-6 {
+        width: var(--col-6);
+    padding: 0 15px;
+    }
+
+    .footer_top img {
+        max-width: 200px;
+        max
+
+    }
+
+    section img {
+        max-width: 100%;
+    }
+    section .pizza .number {
+        
+        top: 30px;
+        left: 42px;
+       
+    
+    }
+
+    
+        .col-md-8 {
+            width: var(--col-8);
+            padding: 0 15px;
+        }
+       section .lorem {
+        margin-right: auto;
+        
+        
+    }
+    section .lorem h2 {
+        
+        font-size: 18px;
+        
+    }
+    section .lorem p {
+        
+        font-size: 13px;
+        width: 315px;
+    }
+
+
+    .nav .logo h2 {
+        
+        font-size: 18px;
+    }
+
+    .nav .tel {
+        font-size: 18px;
+    }
+    .nav .recall {
+        font-size: 14px;
+    }
+    .nav .btn {
+        width: 180px;
+        height: 45px;
+    }
+
+    header .info h1 {
+font-size: 52px;
+    }
+
+    main .totti img {
+        margin-top: 150px;
+        width: 220px;
+        
+    }
+    main .infor p{
+        font-size: 14px;
+    }
+    main .infor h1 {
+        font-size: 26px;
+    }
+    main .infor .fran {
+        margin: auto;
+    }
+    main .infor .fran img {
+        width: 140px;
+    }
+
+}
+
+.finish {
+    background: black;
+    
+    height: 100px;
+}
+
+.finish h2 {
+    font-size: 16px;
+    font-weight: var(--fn-thin);
+    color: #dededd;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
